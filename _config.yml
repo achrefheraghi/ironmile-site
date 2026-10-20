@@ -1,0 +1,7 @@
+title: Ironmile
+description: Small apps for Atlassian and Google Workspace
+theme: jekyll-theme-primer
+plugins: []
+baseurl: ""
+url: https://ironmile.dev
+exclude: [OWNER_TODO.md, README.md, DOMAIN_NOTES.md, Gemfile, Gemfile.lock]
