@@ -19,6 +19,7 @@ Please do not send code or page content you consider sensitive. We only receive 
 
 ## Other links
 
+- [Migrating from Better Code Macro](https://ironmile.dev/code-block-plus/migrating)
 - [Privacy policy](https://ironmile.dev/code-block-plus/privacy)
 - [Terms of use (EULA)](https://ironmile.dev/code-block-plus/terms)
 - [All apps](https://ironmile.dev/)
