@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Support: Builds & Deployments from Azure Pipelines for Jira"
+title: "Support: Pipeline Builds & Deployments via Webhook for Jira"
 ---
 
 Email **support@ironmile.dev**. We reply by email.

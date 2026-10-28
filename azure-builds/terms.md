@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Terms of Use (EULA): Builds & Deployments from Azure Pipelines for Jira"
+title: "Terms of Use (EULA): Pipeline Builds & Deployments via Webhook for Jira"
 ---
 
 Last updated: 2026-10-21
 
-"Builds & Deployments from Azure Pipelines for Jira" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
+"Pipeline Builds & Deployments via Webhook for Jira" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
 
 Your use of the app is governed by the **Bonterms Standard End User Agreement, Version 1.0**, as published for Atlassian Marketplace apps:
 <https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1>

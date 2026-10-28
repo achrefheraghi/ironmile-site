@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Builds & Deployments from Azure Pipelines for Jira"
+title: "Pipeline Builds & Deployments via Webhook for Jira"
 ---
 
 Azure Pipelines builds and deployments on Jira Cloud issues. Azure DevOps pushes events through a service hook to a private webhook URL. Builds appear in the issue's Development panel. Deployments appear in the Deployments view and Releases.

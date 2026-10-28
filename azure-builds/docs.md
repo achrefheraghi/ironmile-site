@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Documentation: Builds & Deployments from Azure Pipelines for Jira"
+title: "Documentation: Pipeline Builds & Deployments via Webhook for Jira"
 permalink: /azure-builds/docs
 ---
 
@@ -17,7 +17,7 @@ That is all. You do not need to link an Azure subscription, buy a paid Azure Dev
 
 ## Set up in 7 steps
 
-1. **Copy the webhook URL and secret.** In Jira open **Apps > Builds from Azure Pipelines** (the admin page; it needs Jira admin). Copy the *Webhook URL*.
+1. **Copy the webhook URL and secret.** In Jira open **Apps > Pipeline Builds & Deployments via Webhook for Jira** (the admin page; it needs Jira admin). Copy the *Webhook URL*.
    - **The secret is shown once.** The first time an admin opens the page, the app creates the secret and shows it in a green box: "New secret. Copy it now, it is shown only once." Copy it, then press **I have copied it**. After that the page shows it masked.
    - Missed it? Press **Regenerate secret** and choose **Revoke old secrets now** (no hooks use it yet), then copy the new value. To change a secret that hooks already use, see *Rotate the secret* below.
 2. **Open service hooks.** In Azure DevOps open your project, then **Project settings** (bottom left) **> General > Service hooks > Create subscription** (green plus). Choose **Web Hooks > Next**.
@@ -62,7 +62,7 @@ Each rotation keeps its own 24 hours: rotating again before you finish does not 
 
 ## Dashboard gadget
 
-Add **Azure Pipelines builds** to a Jira dashboard (**Add gadget**, search "Azure"). In its settings pick a Jira project key (or leave it empty for all projects) and **Failing builds**, **Passing builds** or **Any builds**. The gadget lists up to 20 matching issues, newest update first, with their status. It searches as the person viewing the dashboard, so everyone sees only issues they can browse, and the app stores nothing for it.
+Add **Pipeline builds** to a Jira dashboard (**Add gadget**, search "Pipeline"). In its settings pick a Jira project key (or leave it empty for all projects) and **Failing builds**, **Passing builds** or **Any builds**. The gadget lists up to 20 matching issues, newest update first, with their status. It searches as the person viewing the dashboard, so everyone sees only issues they can browse, and the app stores nothing for it.
 
 ## Uninstall
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Privacy Policy: Builds & Deployments from Azure Pipelines for Jira"
+title: "Privacy Policy: Pipeline Builds & Deployments via Webhook for Jira"
 ---
 
 Last updated: 2026-10-20
 
-This policy covers the Jira Cloud app "Builds & Deployments from Azure Pipelines for Jira" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev. The app is not affiliated with, endorsed by or sponsored by Microsoft. "Azure DevOps" and "Azure Pipelines" are Microsoft trademarks, used only to say what the app works with.
+This policy covers the Jira Cloud app "Pipeline Builds & Deployments via Webhook for Jira" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev. The app is not affiliated with, endorsed by or sponsored by Microsoft. "Azure DevOps" and "Azure Pipelines" are Microsoft trademarks, used only to say what the app works with.
 
 ## What the app does with data
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Terms of Use (EULA): Harvest Sync for Jira"
+title: "Terms of Use (EULA): Worklog Sync for Harvest"
 ---
 
 Last updated: 2026-10-21
 
-"Harvest Sync for Jira" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
+"Worklog Sync for Harvest" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
 
 Your use of the app is governed by the **Bonterms Standard End User Agreement, Version 1.0**, as published for Atlassian Marketplace apps:
 <https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1>

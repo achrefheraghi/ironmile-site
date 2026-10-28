@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Privacy Policy: Harvest Sync for Jira"
+title: "Privacy Policy: Worklog Sync for Harvest"
 ---
 
 Last updated: 2026-10-20
 
-This policy covers the Jira Cloud app "Harvest Sync for Jira" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev.
+This policy covers the Jira Cloud app "Worklog Sync for Harvest" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev.
 
 The app is not affiliated with, endorsed by or sponsored by Harvest or Atlassian. "Harvest" is used only to name the service the app connects to.
 
