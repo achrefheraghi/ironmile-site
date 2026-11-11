@@ -18,6 +18,7 @@ Please do not send email content or attachments you consider sensitive. We only 
 
 ## Other links
 
+- [Documentation](https://ironmile.dev/email-viewer/docs)
 - [Privacy policy](https://ironmile.dev/email-viewer/privacy)
 - [Terms of use (EULA)](https://ironmile.dev/email-viewer/terms)
 - [All apps](https://ironmile.dev/)
