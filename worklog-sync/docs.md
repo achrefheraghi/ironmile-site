@@ -24,7 +24,7 @@ Sync goes one way, from Harvest to Jira. Worklogs you create in Jira are not sen
 3. Select **Get app**, then start the free trial.
 4. Read the permissions on the consent screen and accept.
 
-The app asks for four Jira scopes.
+The app asks for five permissions (scopes).
 
 | Scope | Why |
 |---|---|
@@ -32,6 +32,7 @@ The app asks for four Jira scopes.
 | `write:jira-work` | Creates, updates and deletes the worklogs the app created. |
 | `read:jira-user` | Reads a user's name and time zone. |
 | `storage:app` | Keeps tokens, project maps and the sync log in Forge storage. |
+| `report:personal-data` | Once a week, asks Atlassian which stored accounts were closed, and erases their data from the app. |
 
 The consent screen also lists one outside host, `api.harvestapp.com`. Nothing is sent anywhere else.
 
