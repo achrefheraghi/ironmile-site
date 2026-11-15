@@ -1,0 +1,6 @@
+{%- comment -%} Usage: include install.html p=product [cls=extra] {%- endcomment -%}
+{%- if include.p.status == 'live' -%}
+<a class="btn primary {{ include.cls }}" href="{{ include.p.install_url }}"{% if include.p.external or include.p.slug == 'pleading-paper' %} rel="noopener"{% endif %}>{{ include.p.install_label }}</a>
+{%- else -%}
+<span class="btn soon {{ include.cls }}" role="note">{{ include.p.pending_label }}</span>
+{%- endif -%}

@@ -1,0 +1,25 @@
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <p class="foot-brand">Ironmile</p>
+      <p>Ironmile is the trading name of Achref Heraghi, Tunisia.</p>
+      <p><a href="mailto:support@ironmile.dev">support@ironmile.dev</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <p class="foot-h">Products</p>
+      <ul>
+      {%- for p in site.data.products -%}{%- unless p.external -%}
+        <li><a href="/{{ p.slug }}/">{{ p.name | escape }}</a></li>
+      {%- endunless -%}{%- endfor -%}
+      </ul>
+    </nav>
+    <nav aria-label="Legal">
+      <p class="foot-h">Ironmile</p>
+      <ul>
+        <li><a href="/docs/">Documentation</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/support/#legal">Privacy and terms</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>

@@ -1,0 +1,150 @@
+# One entry per product. Home cards, /docs/, /support/ and product pages all read this file.
+# Going live on Atlassian: change `status: pending` to `status: live` for that app.
+- slug: text-gadget
+  name: Text & Announcement Gadget
+  suffix: for Jira
+  platform: Jira Cloud
+  icon: /assets/img/icons/text-gadget.svg
+  benefit: Put Markdown text and announcement banners on Jira dashboards.
+  lead: Markdown text and announcement banners on Jira Cloud dashboards. It runs on Atlassian (Forge), asks for no permissions and sends no data outside your Jira site.
+  status: pending
+  install_url: https://marketplace.atlassian.com/apps/302054937
+  install_label: Install from Atlassian Marketplace
+  pending_label: Coming soon on Atlassian Marketplace
+  price: Free for up to 10 users. Above that, $0.30 per user / month, billed by Atlassian.
+  docs_url: /text-gadget/docs
+  chips: [Markdown text, Announcement banners, Scheduled announcements, Dark mode]
+  benefits:
+    - {title: Write it in Markdown, text: "Add formatted text, links and tables to any dashboard from the gadget's Configure screen."}
+    - {title: Announce on a schedule, text: "Show an announcement banner on a dashboard and schedule when it appears."}
+    - {title: Nothing leaves your site, text: "No permissions requested and no data sent outside your Jira site."}
+  shots:
+    - {file: text-gadget-1, alt: "A release freeze announcement on a Jira dashboard"}
+    - {file: text-gadget-2, alt: "Editing a gadget with a live preview"}
+    - {file: text-gadget-3, alt: "Announcement presets"}
+    - {file: text-gadget-4, alt: "Scheduling an announcement"}
+- slug: code-block-plus
+  name: Code Block+
+  suffix: for Confluence
+  platform: Confluence Cloud
+  icon: /assets/img/icons/code-block-plus.svg
+  benefit: Syntax-highlighted code macro with line numbers, highlights and collapse.
+  lead: A code macro for the Confluence Cloud editor. Syntax-highlighted code with an optional title, line numbers, highlighted lines, line wrapping and a collapse button.
+  status: pending
+  install_url: https://marketplace.atlassian.com/apps/2155597796
+  install_label: Install from Atlassian Marketplace
+  pending_label: Coming soon on Atlassian Marketplace
+  price: Free for sites with 1 to 10 users. Above that, $0.20 per user / month, billed by Atlassian.
+  docs_url: /code-block-plus/docs
+  extra_links:
+    - {label: Migration guide, url: /code-block-plus/migrating, note: Moving from Better Code Macro}
+  chips: [Syntax highlighting, Line numbers, Line highlights, PDF and Word export]
+  benefits:
+    - {title: Code that reads well, text: "Optional title, line numbers, highlighted lines and line wrapping on every block."}
+    - {title: Long blocks stay tidy, text: "A collapse button keeps big listings from taking over the page."}
+    - {title: It travels with the page, text: "The code is saved inside the macro on your page and is included when you export the page."}
+  shots:
+    - {file: code-block-plus-1, alt: "A Confluence page with a highlighted code block"}
+    - {file: code-block-plus-2, alt: "The editor with a live code preview"}
+    - {file: code-block-plus-3, alt: "A code block in a PDF export"}
+- slug: email-viewer
+  name: Email Attachment Viewer
+  suffix: for Jira
+  platform: Jira Cloud and Jira Service Management
+  platform_short: Jira Cloud
+  icon: /assets/img/icons/email-viewer.svg
+  benefit: Read .msg and .eml attachments in the issue, no download needed.
+  lead: A panel on the Jira issue view that lists the .msg and .eml files attached to the issue and opens the one you pick as a readable email.
+  status: pending
+  install_url: https://marketplace.atlassian.com/apps/343724251
+  install_label: Install from Atlassian Marketplace
+  pending_label: Coming soon on Atlassian Marketplace
+  price: Free for up to 10 users. Above that, $0.30 per user / month, billed by Atlassian.
+  docs_url: /email-viewer/docs
+  chips: [.msg files, .eml files, Inline images, One read-only permission]
+  at_a_glance: "Sender, recipients, date, subject, body, inline images and attachments, shown right in the issue."
+  benefits:
+    - {title: A readable email, text: "See sender, recipients, date, subject, body, inline images and attachments."}
+    - {title: No download, no mail client, text: "Open the message from the issue panel instead of saving the file and launching a mail app."}
+    - {title: You see only what you could already see, text: "The app reads attachments as you and asks for one read-only permission."}
+  shots: []
+- slug: azure-builds
+  name: Pipeline Builds & Deployments via Webhook
+  suffix: for Jira
+  platform: Jira Cloud
+  icon: /assets/img/icons/azure-builds.svg
+  benefit: Show Azure Pipelines builds and deployments on Jira issues via a service hook.
+  lead: Azure Pipelines builds and deployments on Jira Cloud issues. Azure DevOps pushes events through a service hook to a private webhook URL.
+  status: pending
+  install_url: https://marketplace.atlassian.com/apps/141832223
+  install_label: Install from Atlassian Marketplace
+  pending_label: Coming soon on Atlassian Marketplace
+  price: Free for up to 10 users, then $0.50 per user / month.
+  docs_url: /azure-builds/docs
+  chips: [Development panel, Deployments view, Releases, Service hook]
+  benefits:
+    - {title: Builds on the issue, text: "Builds appear in the issue's Development panel."}
+    - {title: Deployments in Jira, text: "Deployments appear in the Deployments view and in Releases."}
+    - {title: No sign-in or token, text: "No Microsoft sign-in, no personal access token and no app registration. The app never calls Azure DevOps."}
+  shots:
+    - {file: azure-builds-1, alt: "Builds in the Jira issue Development panel"}
+    - {file: azure-builds-2, alt: "The Jira Deployments view"}
+    - {file: azure-builds-3, alt: "The admin connect screen"}
+- slug: worklog-sync
+  name: Worklog Sync
+  suffix: for Harvest
+  platform: Jira Cloud
+  icon: /assets/img/icons/worklog-sync.svg
+  benefit: Copy Harvest time entries into Jira worklogs so nobody types hours twice.
+  lead: Copies your Harvest time entries into Jira Cloud as worklogs. You can also start a Harvest timer or add a past entry from a Jira issue.
+  status: pending
+  install_url: https://marketplace.atlassian.com/apps/899265902
+  install_label: Install from Atlassian Marketplace
+  pending_label: Coming soon on Atlassian Marketplace
+  price: $0.50 per user / month
+  price_note: Paid plans include a 30-day free trial. Harvest is billed separately by Harvest.
+  docs_url: /worklog-sync/docs
+  chips: [Harvest to Jira, Timers from the issue, Sync log, Hours by epic report]
+  benefits:
+    - {title: No double entry, text: "Harvest time entries become Jira worklogs automatically."}
+    - {title: Timers from the issue, text: "Start a Harvest timer or add a past entry without leaving Jira."}
+    - {title: One outside host, text: "Built on Atlassian Forge with no servers of its own. The only outside host it talks to is Harvest's API."}
+  shots:
+    - {file: worklog-sync-1, alt: "Harvest entries synced as Jira worklogs"}
+    - {file: worklog-sync-2, alt: "Mapping Jira projects to Harvest projects"}
+    - {file: worklog-sync-3, alt: "The timer in the Jira issue panel"}
+    - {file: worklog-sync-4, alt: "Connecting a Harvest account"}
+    - {file: worklog-sync-5, alt: "The sync log"}
+- slug: pleading-paper
+  name: Pleading Paper & Caption Builder
+  suffix: for Google Docs™
+  platform: Google Docs
+  icon: /assets/img/icons/pleading-paper.png
+  benefit: Add 28-line pleading paper and a California-style court caption to your document.
+  lead: A free add-on for Google Docs™. It adds 28-line pleading paper (line numbers, left and right rules, footer title) and a California-style court caption to the document you have open.
+  status: live
+  install_url: https://workspace.google.com/marketplace/app/pleading_paper_caption_builder_for_googl/567104884525
+  install_label: Install from Google Workspace Marketplace
+  price: Free.
+  docs_url: /pleading-paper/docs
+  docs_label: Guide
+  chips: [28 numbered lines, US Letter, Court caption, Free]
+  benefits:
+    - {title: Pleading paper in one step, text: "28 numbered lines on the left margin, a double rule on the left and a single rule on the right."}
+    - {title: A court caption from a form, text: "Fill in a sidebar form and the add-on inserts a California-style caption at the top of the document."}
+    - {title: Safe to run again, text: "Running it twice does not duplicate anything, and one command removes the numbers and rules."}
+  shots:
+    - {file: pleading-paper-1, alt: "A Google Docs page with numbered pleading paper"}
+    - {file: pleading-paper-2, alt: "The caption form in the sidebar"}
+    - {file: pleading-paper-3, alt: "A finished pleading page with caption"}
+- slug: pubrescue
+  name: PubRescue
+  suffix: for Windows
+  platform: Windows
+  icon: /assets/img/icons/pubrescue.svg
+  benefit: Open Microsoft Publisher (.pub) files on Windows without Publisher. Preview free; export to PDF, Word, PowerPoint, PNG and SVG.
+  status: live
+  external: true
+  wide: true
+  install_url: https://apps.microsoft.com/detail/9P8BPMX15LD4
+  install_label: Get it on Microsoft Store

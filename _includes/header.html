@@ -1,0 +1,11 @@
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="/"><img src="{{ '/assets/img/ironmile-logo.svg' | relative_url }}" alt="" width="32" height="32"><span>Ironmile</span></a>
+    <nav aria-label="Main">
+      <a href="/#products"{% if page.url == '/' %} aria-current="page"{% endif %}>Products</a>
+      <a href="/docs/"{% if page.url == '/docs/' %} aria-current="page"{% endif %}>Docs</a>
+      <a href="/support/"{% if page.url == '/support/' %} aria-current="page"{% endif %}>Support</a>
+    </nav>
+  </div>
+</header>

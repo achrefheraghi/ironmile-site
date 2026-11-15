@@ -1,7 +1,7 @@
 title: Ironmile
 description: Small apps for Atlassian and Google Workspace
-theme: jekyll-theme-primer
 plugins: []
 baseurl: ""
 url: https://ironmile.dev
 exclude: [OWNER_TODO.md, README.md, DOMAIN_NOTES.md, Gemfile, Gemfile.lock]
+# Own layouts in _layouts/ and CSS in assets/css/site.css replace jekyll-theme-primer.

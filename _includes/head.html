@@ -1,0 +1,27 @@
+{%- assign pg_title = page.title | default: site.title -%}
+{%- if page.url == '/' -%}{%- assign full_title = 'Ironmile: small apps for Jira, Confluence and Google Docs' -%}{%- else -%}{%- assign full_title = pg_title | append: ' | Ironmile' -%}{%- endif -%}
+{%- if page.product -%}{%- assign hp = site.data.products | where: 'slug', page.product | first -%}{%- assign pg_title = hp.name | append: ' ' | append: hp.suffix -%}{%- assign full_title = pg_title | append: ' | Ironmile' -%}{%- assign desc = hp.lead | append: ' ' | append: hp.price -%}{%- else -%}{%- if page.description -%}{%- assign desc = page.description -%}{%- else -%}{%- assign desc = pg_title | append: '. Ironmile makes small apps for Atlassian and Google Workspace.' -%}{%- endif -%}{%- endif -%}
+{%- assign canonical = page.url | replace: 'index.html', '' | remove: '.html' | absolute_url -%}
+{%- assign og_img = '/assets/img/og.png' | absolute_url -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ full_title | escape }}</title>
+<meta name="description" content="{{ desc | escape }}">
+<link rel="canonical" href="{{ canonical }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/img/ironmile-logo.svg' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/img/favicon-144.png' | relative_url }}">
+<meta name="theme-color" content="#0E0C2E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ironmile">
+<meta property="og:title" content="{{ full_title | escape }}">
+<meta property="og:description" content="{{ desc | escape }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ og_img }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ full_title | escape }}">
+<meta name="twitter:description" content="{{ desc | escape }}">
+<meta name="twitter:image" content="{{ og_img }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+{%- assign p = site.data.products | where: 'slug', page.product | first -%}
+<main id="main">
+  <section class="hero product-hero">
+    <div class="wrap">
+      <p class="crumb"><a href="/#products">All products</a></p>
+      <div class="ph-head">
+        <img class="ic big-ic" src="{{ p.icon | relative_url }}" alt="" width="72" height="72">
+        <div>
+          <span class="badge">{{ p.platform }}</span>
+          <h1>{{ p.name | escape }} <small>{{ p.suffix }}</small></h1>
+        </div>
+      </div>
+      <p class="lead">{{ p.lead | escape }}</p>
+      <div class="row">
+        {% include install.html p=p cls="big" %}
+        <a class="btn ghost big" href="{{ p.docs_url }}">{{ p.docs_label | default: 'Read the docs' }}</a>
+      </div>
+      <p class="price">{{ p.price }}</p>
+      {% if p.price_note %}<p class="price-note">{{ p.price_note }}</p>{% endif %}
+      <ul class="chips" aria-label="At a glance">{% for c in p.chips %}<li>{{ c }}</li>{% endfor %}</ul>
+    </div>
+  </section>
+  <div class="wrap">
+    {% if p.shots.size > 0 %}
+    <section class="shots" aria-label="Screenshots">
+      {% for s in p.shots %}
+      <figure class="{% if forloop.first %}first{% endif %}">
+        <a href="/assets/img/shots/{{ s.file }}.jpg" target="_blank" rel="noopener"><img src="{{ '/assets/img/shots/' | append: s.file | append: '.jpg' | relative_url }}" alt="{{ s.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"></a>
+        <figcaption>{{ s.alt }}. <span class="muted">Select to open full size.</span></figcaption>
+      </figure>
+      {% endfor %}
+    </section>
+    {% elsif p.at_a_glance %}
+    <section class="glance"><p class="glance-h">What the panel shows</p><p>{{ p.at_a_glance }}</p></section>
+    {% endif %}
+    <section aria-labelledby="why-h">
+      <h2 id="why-h" class="sec">Why use it</h2>
+      <div class="three">
+        {% for b in p.benefits %}<div class="ben"><h3>{{ b.title }}</h3><p>{{ b.text }}</p></div>{% endfor %}
+      </div>
+    </section>
+    {%- assign body = content | strip -%}
+    {% if body != '' %}
+    <section class="prose about" aria-labelledby="about-h"><h2 id="about-h" class="sec">About</h2>{{ content }}</section>
+    {% endif %}
+    <section aria-labelledby="links-h">
+      <h2 id="links-h" class="sec">Documentation and policies</h2>
+      <ul class="linkcards">
+        <li><a href="{{ p.docs_url }}"><strong>{{ p.docs_label | default: 'Documentation' }}</strong><span>How to set it up and use it</span></a></li>
+        {% for l in p.extra_links %}<li><a href="{{ l.url }}"><strong>{{ l.label }}</strong><span>{{ l.note }}</span></a></li>{% endfor %}
+        <li><a href="/{{ p.slug }}/support"><strong>Support</strong><span>Email support@ironmile.dev</span></a></li>
+        <li><a href="/{{ p.slug }}/privacy"><strong>Privacy policy</strong><span>What data is handled</span></a></li>
+        <li><a href="/{{ p.slug }}/terms"><strong>Terms</strong><span>The terms of use</span></a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+{% include footer.html %}
+</body>
+</html>

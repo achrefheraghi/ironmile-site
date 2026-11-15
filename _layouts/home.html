@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Ironmile</p>
+      <h1>Small apps that do one job well.</h1>
+      <p class="lead">For Jira, Confluence, Google Docs and Windows. Clear docs, a real support inbox.</p>
+      <a class="btn primary big" href="#products">Browse the apps</a>
+    </div>
+  </section>
+  <section class="wrap" id="products" aria-labelledby="products-h">
+    <h2 id="products-h" class="sec">Products</h2>
+    <div class="grid">
+      {% for p in site.data.products %}{% include card.html p=p %}{% endfor %}
+    </div>
+    {{ content }}
+  </section>
+</main>
+{% include footer.html %}
+</body>
+</html>

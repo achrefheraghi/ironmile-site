@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main id="main" class="page">
+  <div class="wrap {% unless page.wide %}prose{% endunless %}">
+    {%- assign has_h1 = false -%}{%- if content contains '<h1' -%}{%- assign has_h1 = true -%}{%- endif -%}
+    {%- if page.wide != true and page.title and has_h1 == false -%}<p class="crumb"><a href="/">Ironmile</a></p><h1 class="page-title">{{ page.title | escape }}</h1>{%- elsif page.wide -%}<h1 class="page-title">{{ page.title | escape }}</h1>{%- endif -%}
+    {{ content }}
+  </div>
+</main>
+{% include footer.html %}
+</body>
+</html>

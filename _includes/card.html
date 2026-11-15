@@ -1,0 +1,13 @@
+{%- assign p = include.p -%}
+<article class="card{% if p.wide %} wide{% endif %}">
+  <img class="ic" src="{{ p.icon | relative_url }}" alt="" width="56" height="56" loading="lazy">
+  <div class="cb">
+    <span class="badge">{{ p.platform_short | default: p.platform }}</span>
+    <h3>{% unless p.external %}<a class="cover" href="/{{ p.slug }}/">{% endunless %}{{ p.name | escape }}{% unless p.external %}</a>{% endunless %} <small>{{ p.suffix }}</small></h3>
+    <p>{{ p.benefit | escape }}</p>
+    <div class="row">
+      {% include install.html p=p %}
+      {% if p.docs_url %}<a class="btn" href="{{ p.docs_url }}">{{ p.docs_label | default: 'Docs' }}<span class="sr"> for {{ p.name | escape }}</span></a>{% endif %}
+    </div>
+  </div>
+</article>
