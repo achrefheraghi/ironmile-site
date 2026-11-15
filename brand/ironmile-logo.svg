@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288">
+  <rect width="288" height="288" rx="56" fill="#3D35C9"/>
+  <!-- I -->
+  <rect x="56" y="64" width="30" height="118" fill="#FFFFFF"/>
+  <!-- M -->
+  <polygon points="106,182 106,64 136,64 169,124 202,64 232,64 232,182 204,182 204,112 176,162 162,162 134,112 134,182" fill="#FFFFFF"/>
+  <!-- the mile line -->
+  <rect x="56" y="206" width="176" height="20" rx="10" fill="#F5A623"/>
+</svg>
