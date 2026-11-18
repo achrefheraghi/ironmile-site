@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Support: Code Block+ for Confluence"
+title: "Support: Code Block Plus for Confluence"
 ---
 
 Email **support@ironmile.dev**. We reply by email.

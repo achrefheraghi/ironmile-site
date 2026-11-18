@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Privacy Policy: Code Block+ for Confluence"
+title: "Privacy Policy: Code Block Plus for Confluence"
 ---
 
 Last updated: 2026-10-20
 
-This policy covers the Confluence Cloud app "Code Block+ for Confluence" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev.
+This policy covers the Confluence Cloud app "Code Block Plus for Confluence" (the "app"), provided by Achref Heraghi, trading as Ironmile ("we", "us"). Contact: support@ironmile.dev.
 
 ## What the app does with data
 

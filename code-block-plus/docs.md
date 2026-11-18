@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Documentation: Code Block+ for Confluence"
+title: "Documentation: Code Block Plus for Confluence"
 permalink: /code-block-plus/docs
 ---
 
-Code Block+ adds a code macro to the Confluence Cloud editor. It shows syntax-highlighted code with an optional title, line numbers, highlighted lines, line wrapping and a collapse button. The code is saved inside the macro on your page and is included when you export the page. The app runs on Atlassian (Forge) and sends no data outside your Confluence site.
+Code Block Plus adds a code macro to the Confluence Cloud editor. It shows syntax-highlighted code with an optional title, line numbers, highlighted lines, line wrapping and a collapse button. The code is saved inside the macro on your page and is included when you export the page. The app runs on Atlassian (Forge) and sends no data outside your Confluence site.
 
 ## What you need
 
@@ -15,7 +15,7 @@ Code Block+ adds a code macro to the Confluence Cloud editor. It shows syntax-hi
 ## Add a code block to a page
 
 1. Open a page in the editor.
-2. Type `/` and search for **Code Block+**, then select it. (You can also pick it from the editor's insert menu.)
+2. Type `/` and search for **Code Block Plus**, then select it. (You can also pick it from the editor's insert menu.)
 3. The editor dialog opens at once. Fill in the fields described below.
 4. Press **Save**. The code appears on the page.
 5. Publish or update the page.
@@ -68,15 +68,15 @@ PDF and Word export include your code and its title. The export carries the titl
 
 ## If your subscription lapses
 
-Your code stays visible. Blocks become read-only: the page shows *Subscription inactive. Code Block+ is read-only until a Confluence admin activates it under Manage apps.*, and the editor dialog opens for viewing and previewing but cannot save. A Confluence admin can activate the app again under **Manage apps**. The admin importer also stops until then.
+Your code stays visible. Blocks become read-only: the page shows *Subscription inactive. Code Block Plus is read-only until a Confluence admin activates it under Manage apps.*, and the editor dialog opens for viewing and previewing but cannot save. A Confluence admin can activate the app again under **Manage apps**. The admin importer also stops until then.
 
 ## Scan a space for Better Code Macro blocks
 
-If your site uses Better Code Macro, a Confluence admin can scan a space to see how many of its blocks Code Block+ recognises. The scan is read-only. Converting blocks is not available yet. Steps and details are on the [migration page](https://ironmile.dev/code-block-plus/migrating).
+If your site uses Better Code Macro, a Confluence admin can scan a space to see how many of its blocks Code Block Plus recognises. The scan is read-only. Converting blocks is not available yet. Steps and details are on the [migration page](https://ironmile.dev/code-block-plus/migrating).
 
 In short:
 
-1. Open **Confluence settings**, then **Code Block+ import** under Apps.
+1. Open **Confluence settings**, then **Code Block Plus import** under Apps.
 2. Choose a space and press **Dry run**.
 3. Read the report: pages scanned, blocks that can be converted, blocks that would be skipped with the reason, and a list of pages with their counts.
 

@@ -24,7 +24,7 @@
     - {file: text-gadget-3, alt: "Announcement presets"}
     - {file: text-gadget-4, alt: "Scheduling an announcement"}
 - slug: code-block-plus
-  name: Code Block+
+  name: Code Block Plus
   suffix: for Confluence
   platform: Confluence Cloud
   icon: /assets/img/icons/code-block-plus.svg

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Terms of Use (EULA): Code Block+ for Confluence"
+title: "Terms of Use (EULA): Code Block Plus for Confluence"
 ---
 
 Last updated: 2026-10-21
 
-"Code Block+ for Confluence" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
+"Code Block Plus for Confluence" (the "app") is provided by Achref Heraghi, trading as Ironmile, based in Tunisia, through the Atlassian Marketplace.
 
 Your use of the app is governed by the **Bonterms Standard End User Agreement, Version 1.0**, as published for Atlassian Marketplace apps:
 <https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1>
