@@ -25,7 +25,7 @@ The app has no accounts and no tokens of its own. The only scope is `read:jira-w
 
 ## Certifications
 
-Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We do not operate servers or hold customer data, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
+Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We operate no servers and hold no customer data outside Atlassian, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
 
 ## Access to the app and its code
 

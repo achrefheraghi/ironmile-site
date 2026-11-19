@@ -25,7 +25,7 @@ There is no site-wide token: each user connects their own Harvest account. Admin
 
 ## Certifications
 
-Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We do not operate servers or hold customer data, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
+Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We operate no servers and hold no customer data outside Atlassian, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
 
 ## Access to the app and its code
 
@@ -33,7 +33,6 @@ The app is built and maintained by one person, Achref Heraghi, trading as Ironmi
 
 ## Vulnerability management
 
-- We run `npm audit --omit=dev` on the runtime dependencies before a release and leave no Critical or High finding open.
 - Fixes for security vulnerabilities follow Atlassian's Marketplace security bugfix policy: <https://developer.atlassian.com/platform/marketplace/security-bugfix-policy/>
 - A fix ships as a new app version through Forge.
 
@@ -41,7 +40,7 @@ The app is built and maintained by one person, Achref Heraghi, trading as Ironmi
 
 Email **support@ironmile.dev** with what you found and how to reproduce it. Please do not include real customer data.
 
-If a security incident affects the app, we report it to Atlassian within 48 hours through Marketplace (Security, Report incident). Because we run no servers, an incident would be a flaw in the shipped app. We would respond with a patch release through Forge.
+If a security incident affects the app, we report it to Atlassian within 48 hours through Marketplace (Security, Report incident). Because we run no servers, an incident would be a flaw in the shipped app. We would respond with a patch release through Forge and, if a Harvest token may be exposed, ask affected users to revoke it in Harvest and reconnect.
 
 ## Related pages
 

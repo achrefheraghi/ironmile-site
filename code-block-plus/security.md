@@ -21,11 +21,11 @@ Encryption in transit and at rest is provided by Atlassian's platform. The app a
 
 ## Access and authentication
 
-The app has no accounts and no tokens of its own. The import page requires a Confluence administrator and an active licence. Pages are read as the signed-in user, so page restrictions apply. Saved block settings are treated as untrusted. The app checks their size and values before it shows or exports them. Code is shown as text and never as HTML. The scopes requested are `read:page:confluence`, `read:blogpost:confluence`, `write:page:confluence`, `read:space:confluence`, `read:confluence-user` and `storage:app`.
+The app has no accounts and no tokens of its own. The import page requires a Confluence administrator and is refused when the licence is inactive. The importer reads pages as the signed-in user, so page restrictions apply. Saved block settings are treated as untrusted. The app checks their size and values before it shows or exports them. Code is shown as text and never as HTML. The scopes requested are `read:page:confluence`, `read:blogpost:confluence`, `write:page:confluence`, `read:space:confluence`, `read:confluence-user` and `storage:app`.
 
 ## Certifications
 
-Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We do not operate servers or hold customer data, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
+Ironmile holds no security certifications. This includes ISO 27001 and SOC 2. We operate no servers and hold no customer data outside Atlassian, so the app relies on Atlassian's Forge platform. Atlassian publishes its own certifications and reports on its trust site: <https://www.atlassian.com/trust>.
 
 ## Access to the app and its code
 
