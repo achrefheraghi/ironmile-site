@@ -21,6 +21,7 @@ Please do not send Jira content you consider sensitive. We only receive what you
 
 - [Documentation](https://ironmile.dev/text-gadget/docs)
 - [Privacy policy](https://ironmile.dev/text-gadget/privacy)
+- [Security policy](https://ironmile.dev/text-gadget/security)
 - [Terms of use (EULA)](https://ironmile.dev/text-gadget/terms)
 - [All apps](https://ironmile.dev/)
 

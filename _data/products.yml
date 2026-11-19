@@ -1,6 +1,8 @@
 # One entry per product. Home cards, /docs/, /support/ and product pages all read this file.
+# `security_page: true` = the app has /<slug>/security.
 # Going live on Atlassian: change `status: pending` to `status: live` for that app.
 - slug: text-gadget
+  security_page: true
   name: Text & Announcement Gadget
   suffix: for Jira
   platform: Jira Cloud
@@ -24,6 +26,7 @@
     - {file: text-gadget-3, alt: "Announcement presets"}
     - {file: text-gadget-4, alt: "Scheduling an announcement"}
 - slug: code-block-plus
+  security_page: true
   name: Code Block Plus
   suffix: for Confluence
   platform: Confluence Cloud
@@ -48,6 +51,7 @@
     - {file: code-block-plus-2, alt: "The editor with a live code preview"}
     - {file: code-block-plus-3, alt: "A code block in a PDF export"}
 - slug: email-viewer
+  security_page: true
   name: Email Attachment Viewer
   suffix: for Jira
   platform: Jira Cloud and Jira Service Management
@@ -69,6 +73,7 @@
     - {title: You see only what you could already see, text: "The app reads attachments as you and asks for one read-only permission."}
   shots: []
 - slug: azure-builds
+  security_page: true
   name: Pipeline Builds & Deployments via Webhook
   suffix: for Jira
   platform: Jira Cloud
@@ -91,6 +96,7 @@
     - {file: azure-builds-2, alt: "The Jira Deployments view"}
     - {file: azure-builds-3, alt: "The admin connect screen"}
 - slug: worklog-sync
+  security_page: true
   name: Worklog Sync
   suffix: for Harvest
   platform: Jira Cloud

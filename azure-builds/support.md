@@ -20,6 +20,7 @@ Please do not send secrets, webhook URLs or build content you consider sensitive
 ## Other links
 
 - [Privacy policy](https://ironmile.dev/azure-builds/privacy)
+- [Security policy](https://ironmile.dev/azure-builds/security)
 - [Terms of use (EULA)](https://ironmile.dev/azure-builds/terms)
 - [All apps](https://ironmile.dev/)
 

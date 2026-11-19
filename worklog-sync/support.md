@@ -21,6 +21,7 @@ Please do not send your Harvest token or any other secret. We only receive what 
 
 - [Documentation](https://ironmile.dev/worklog-sync/docs)
 - [Privacy policy](https://ironmile.dev/worklog-sync/privacy)
+- [Security policy](https://ironmile.dev/worklog-sync/security)
 - [Terms of use (EULA)](https://ironmile.dev/worklog-sync/terms)
 - [All apps](https://ironmile.dev/)
 

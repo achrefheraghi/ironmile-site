@@ -12,6 +12,7 @@ description: How to get help with Ironmile apps, plus every app's privacy policy
   <ul>
     <li><a href="/{{ p.slug }}/support">Support</a></li>
     <li><a href="/{{ p.slug }}/privacy">Privacy policy</a></li>
+    {% if p.security_page %}<li><a href="/{{ p.slug }}/security">Security policy</a></li>{% endif %}
     <li><a href="/{{ p.slug }}/terms">Terms of service</a></li>
   </ul>
 </section>

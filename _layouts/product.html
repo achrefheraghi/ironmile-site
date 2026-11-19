@@ -57,6 +57,7 @@
         {% for l in p.extra_links %}<li><a href="{{ l.url }}"><strong>{{ l.label }}</strong><span>{{ l.note }}</span></a></li>{% endfor %}
         <li><a href="/{{ p.slug }}/support"><strong>Support</strong><span>Email support@ironmile.dev</span></a></li>
         <li><a href="/{{ p.slug }}/privacy"><strong>Privacy policy</strong><span>What data is handled</span></a></li>
+        {% if p.security_page %}<li><a href="/{{ p.slug }}/security"><strong>Security policy</strong><span>How the app is secured</span></a></li>{% endif %}
         <li><a href="/{{ p.slug }}/terms"><strong>Terms</strong><span>The terms of use</span></a></li>
       </ul>
     </section>
