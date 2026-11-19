@@ -40,7 +40,7 @@ The app is built and maintained by one person, Achref Heraghi, trading as Ironmi
 
 Email **support@ironmile.dev** with what you found and how to reproduce it. Please do not include real customer data.
 
-If a security incident affects the app, we report it to Atlassian within 48 hours through Marketplace (Security, Report incident). Because we run no servers, an incident would be a flaw in the shipped app. We would respond with a patch release through Forge and, if the shared secret may be exposed, ask admins to rotate it on the app's admin page.
+If a security incident affects the app, we report it to Atlassian within 48 hours through Marketplace (Security, Report incident). Because we run no servers, an incident would be a flaw in the shipped app. We would respond with a patch release through Forge and, if the shared secret may be exposed, ask admins to rotate it and revoke old secrets on the app's admin page.
 
 ## Related pages
 
